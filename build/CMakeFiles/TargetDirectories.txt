@@ -1,0 +1,14 @@
+/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/SDL_learning.dir
+/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/edit_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/rebuild_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/edit_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_image/CMakeFiles/SDL3_image-shared.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_image/CMakeFiles/edit_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_image/CMakeFiles/rebuild_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/edit_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/rebuild_cache.dir
