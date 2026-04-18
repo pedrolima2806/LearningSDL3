@@ -96,7 +96,7 @@ SDL_Color pickColor(int val)
     return arrColors[val];
 }
 
-int main(int argc, const char * argv[]) {
+int noiseterrain(int argc, const char * argv[]) {
     SDL_Init(SDL_INIT_VIDEO | SDL_INIT_EVENTS);
     SDL_Window *win = SDL_CreateWindow("Procedural terrain generation", WIN_WIDTH, WIN_HEIGHT, 0);
     SDL_Renderer *renderer = SDL_CreateRenderer(win, NULL);
