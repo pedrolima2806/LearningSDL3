@@ -1,4 +1,6 @@
 /home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/SDL_learning.dir
+/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/cube.dir
+/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/glad.dir
 /home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/edit_cache.dir
 /home/pedro/CLionProjects/SDL_learning/build/CMakeFiles/rebuild_cache.dir
 /home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
@@ -12,3 +14,6 @@
 /home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir
 /home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/edit_cache.dir
 /home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_ttf/CMakeFiles/rebuild_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_mixer/CMakeFiles/edit_cache.dir
+/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL_mixer/CMakeFiles/rebuild_cache.dir

@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pedro/CLionProjects/SDL_learning/src/camera.cpp" "CMakeFiles/SDL_learning.dir/src/camera.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/camera.cpp.o.d"
   "/home/pedro/CLionProjects/SDL_learning/src/gameState.cpp" "CMakeFiles/SDL_learning.dir/src/gameState.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/gameState.cpp.o.d"
   "/home/pedro/CLionProjects/SDL_learning/src/healthBar.cpp" "CMakeFiles/SDL_learning.dir/src/healthBar.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/healthBar.cpp.o.d"
+  "/home/pedro/CLionProjects/SDL_learning/src/mixerTest.cpp" "CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o.d"
+  "/home/pedro/CLionProjects/SDL_learning/src/noiseTerrain.cpp" "CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o.d"
   "/home/pedro/CLionProjects/SDL_learning/src/textDisplay.cpp" "CMakeFiles/SDL_learning.dir/src/textDisplay.cpp.o" "gcc" "CMakeFiles/SDL_learning.dir/src/textDisplay.cpp.o.d"
   )
 

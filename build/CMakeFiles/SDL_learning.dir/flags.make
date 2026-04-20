@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL/include -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL_image/include -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL_ttf/include -I/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/include-revision
+CXX_INCLUDES = -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL/include -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL_image/include -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL_ttf/include -I/home/pedro/CLionProjects/SDL_learning/vendored/SDL_mixer/include -I/home/pedro/CLionProjects/SDL_learning/build/vendored/SDL/include-revision
 
 CXX_FLAGS = -fPIE
 

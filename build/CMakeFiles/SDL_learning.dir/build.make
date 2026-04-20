@@ -153,6 +153,34 @@ CMakeFiles/SDL_learning.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL_learning.dir/src/camera.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/CLionProjects/SDL_learning/src/camera.cpp -o CMakeFiles/SDL_learning.dir/src/camera.cpp.s
 
+CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o: CMakeFiles/SDL_learning.dir/flags.make
+CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o: /home/pedro/CLionProjects/SDL_learning/src/noiseTerrain.cpp
+CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o: CMakeFiles/SDL_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o -MF CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o.d -o CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o -c /home/pedro/CLionProjects/SDL_learning/src/noiseTerrain.cpp
+
+CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/CLionProjects/SDL_learning/src/noiseTerrain.cpp > CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.i
+
+CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/CLionProjects/SDL_learning/src/noiseTerrain.cpp -o CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.s
+
+CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o: CMakeFiles/SDL_learning.dir/flags.make
+CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o: /home/pedro/CLionProjects/SDL_learning/src/mixerTest.cpp
+CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o: CMakeFiles/SDL_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o -MF CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o.d -o CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o -c /home/pedro/CLionProjects/SDL_learning/src/mixerTest.cpp
+
+CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pedro/CLionProjects/SDL_learning/src/mixerTest.cpp > CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.i
+
+CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pedro/CLionProjects/SDL_learning/src/mixerTest.cpp -o CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.s
+
 # Object files for target SDL_learning
 SDL_learning_OBJECTS = \
 "CMakeFiles/SDL_learning.dir/src/bmpImageDisplay.cpp.o" \
@@ -160,7 +188,9 @@ SDL_learning_OBJECTS = \
 "CMakeFiles/SDL_learning.dir/src/healthBar.cpp.o" \
 "CMakeFiles/SDL_learning.dir/src/animatedSprites.cpp.o" \
 "CMakeFiles/SDL_learning.dir/src/gameState.cpp.o" \
-"CMakeFiles/SDL_learning.dir/src/camera.cpp.o"
+"CMakeFiles/SDL_learning.dir/src/camera.cpp.o" \
+"CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o" \
+"CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o"
 
 # External object files for target SDL_learning
 SDL_learning_EXTERNAL_OBJECTS =
@@ -171,13 +201,16 @@ SDL_learning: CMakeFiles/SDL_learning.dir/src/healthBar.cpp.o
 SDL_learning: CMakeFiles/SDL_learning.dir/src/animatedSprites.cpp.o
 SDL_learning: CMakeFiles/SDL_learning.dir/src/gameState.cpp.o
 SDL_learning: CMakeFiles/SDL_learning.dir/src/camera.cpp.o
+SDL_learning: CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o
+SDL_learning: CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o
 SDL_learning: CMakeFiles/SDL_learning.dir/build.make
 SDL_learning: libSDL3_image.so.0.5.0
 SDL_learning: libSDL3_ttf.so.0.3.0
+SDL_learning: libSDL3_mixer.so.0.3.0
 SDL_learning: libSDL3.so.0.5.0
 SDL_learning: /home/pedro/CLionProjects/SDL_learning/vendored/SDL/src/dynapi/SDL_dynapi.sym
 SDL_learning: CMakeFiles/SDL_learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SDL_learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pedro/CLionProjects/SDL_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SDL_learning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_learning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

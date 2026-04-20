@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cube.dir/src/cube.cpp.o -o cube  -Wl,-rpath,/home/pedro/CLionProjects/SDL_learning/build libglad.a libSDL3.so.0.5.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

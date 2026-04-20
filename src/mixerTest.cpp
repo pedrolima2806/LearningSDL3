@@ -2,7 +2,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3_mixer/SDL_mixer.h>
 
-int main () {
+int mixerTest () {
     if (!SDL_Init(SDL_INIT_VIDEO))
     {
         std::cerr << "SDL video init failed." << std::endl;
@@ -11,7 +11,7 @@ int main () {
     if (!MIX_Init()) {
         std::cerr << "MIX_Init failed." << std::endl;
     }
-    SDL_Window *window = SDL_CreateWindow("animatedSprites", 500, 500, 0);
+    SDL_Window *window = SDL_CreateWindow("mixerTest", 500, 500, 0);
     if (!window)
     {
         std::cerr << "Failed to create window:" << SDL_GetError() << std::endl;

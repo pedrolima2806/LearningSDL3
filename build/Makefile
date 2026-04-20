@@ -131,6 +131,32 @@ SDL_learning/fast:
 .PHONY : SDL_learning/fast
 
 #=============================================================================
+# Target rules for targets named cube
+
+# Build rule for target.
+cube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cube
+.PHONY : cube
+
+# fast build rule for target.
+cube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
+.PHONY : cube/fast
+
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
 # Target rules for targets named SDL3-shared
 
 # Build rule for target.
@@ -194,6 +220,19 @@ SDL3_ttf-shared: cmake_check_build_system
 SDL3_ttf-shared/fast:
 	$(MAKE) $(MAKESILENT) -f vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build
 .PHONY : SDL3_ttf-shared/fast
+
+#=============================================================================
+# Target rules for targets named SDL3_mixer-shared
+
+# Build rule for target.
+SDL3_mixer-shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_mixer-shared
+.PHONY : SDL3_mixer-shared
+
+# fast build rule for target.
+SDL3_mixer-shared/fast:
+	$(MAKE) $(MAKESILENT) -f vendored/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir/build.make vendored/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir/build
+.PHONY : SDL3_mixer-shared/fast
 
 src/animatedSprites.o: src/animatedSprites.cpp.o
 .PHONY : src/animatedSprites.o
@@ -267,6 +306,30 @@ src/camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
 
+src/cube.o: src/cube.cpp.o
+.PHONY : src/cube.o
+
+# target to build an object file
+src/cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/cube.cpp.o
+.PHONY : src/cube.cpp.o
+
+src/cube.i: src/cube.cpp.i
+.PHONY : src/cube.i
+
+# target to preprocess a source file
+src/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/cube.cpp.i
+.PHONY : src/cube.cpp.i
+
+src/cube.s: src/cube.cpp.s
+.PHONY : src/cube.s
+
+# target to generate assembly for a file
+src/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/src/cube.cpp.s
+.PHONY : src/cube.cpp.s
+
 src/gameState.o: src/gameState.cpp.o
 .PHONY : src/gameState.o
 
@@ -315,6 +378,54 @@ src/healthBar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/healthBar.cpp.s
 .PHONY : src/healthBar.cpp.s
 
+src/mixerTest.o: src/mixerTest.cpp.o
+.PHONY : src/mixerTest.o
+
+# target to build an object file
+src/mixerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.o
+.PHONY : src/mixerTest.cpp.o
+
+src/mixerTest.i: src/mixerTest.cpp.i
+.PHONY : src/mixerTest.i
+
+# target to preprocess a source file
+src/mixerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.i
+.PHONY : src/mixerTest.cpp.i
+
+src/mixerTest.s: src/mixerTest.cpp.s
+.PHONY : src/mixerTest.s
+
+# target to generate assembly for a file
+src/mixerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/mixerTest.cpp.s
+.PHONY : src/mixerTest.cpp.s
+
+src/noiseTerrain.o: src/noiseTerrain.cpp.o
+.PHONY : src/noiseTerrain.o
+
+# target to build an object file
+src/noiseTerrain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.o
+.PHONY : src/noiseTerrain.cpp.o
+
+src/noiseTerrain.i: src/noiseTerrain.cpp.i
+.PHONY : src/noiseTerrain.i
+
+# target to preprocess a source file
+src/noiseTerrain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.i
+.PHONY : src/noiseTerrain.cpp.i
+
+src/noiseTerrain.s: src/noiseTerrain.cpp.s
+.PHONY : src/noiseTerrain.s
+
+# target to generate assembly for a file
+src/noiseTerrain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/noiseTerrain.cpp.s
+.PHONY : src/noiseTerrain.cpp.s
+
 src/textDisplay.o: src/textDisplay.cpp.o
 .PHONY : src/textDisplay.o
 
@@ -339,6 +450,30 @@ src/textDisplay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL_learning.dir/build.make CMakeFiles/SDL_learning.dir/src/textDisplay.cpp.s
 .PHONY : src/textDisplay.cpp.s
 
+vendored/glad/src/glad.o: vendored/glad/src/glad.c.o
+.PHONY : vendored/glad/src/glad.o
+
+# target to build an object file
+vendored/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/vendored/glad/src/glad.c.o
+.PHONY : vendored/glad/src/glad.c.o
+
+vendored/glad/src/glad.i: vendored/glad/src/glad.c.i
+.PHONY : vendored/glad/src/glad.i
+
+# target to preprocess a source file
+vendored/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/vendored/glad/src/glad.c.i
+.PHONY : vendored/glad/src/glad.c.i
+
+vendored/glad/src/glad.s: vendored/glad/src/glad.c.s
+.PHONY : vendored/glad/src/glad.s
+
+# target to generate assembly for a file
+vendored/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/vendored/glad/src/glad.c.s
+.PHONY : vendored/glad/src/glad.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,10 +484,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SDL3-shared"
 	@echo "... SDL3_image-shared"
+	@echo "... SDL3_mixer-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL3_ttf-shared"
 	@echo "... SDL_learning"
 	@echo "... SDL_uclibc"
+	@echo "... cube"
+	@echo "... glad"
 	@echo "... src/animatedSprites.o"
 	@echo "... src/animatedSprites.i"
 	@echo "... src/animatedSprites.s"
@@ -362,15 +500,27 @@ help:
 	@echo "... src/camera.o"
 	@echo "... src/camera.i"
 	@echo "... src/camera.s"
+	@echo "... src/cube.o"
+	@echo "... src/cube.i"
+	@echo "... src/cube.s"
 	@echo "... src/gameState.o"
 	@echo "... src/gameState.i"
 	@echo "... src/gameState.s"
 	@echo "... src/healthBar.o"
 	@echo "... src/healthBar.i"
 	@echo "... src/healthBar.s"
+	@echo "... src/mixerTest.o"
+	@echo "... src/mixerTest.i"
+	@echo "... src/mixerTest.s"
+	@echo "... src/noiseTerrain.o"
+	@echo "... src/noiseTerrain.i"
+	@echo "... src/noiseTerrain.s"
 	@echo "... src/textDisplay.o"
 	@echo "... src/textDisplay.i"
 	@echo "... src/textDisplay.s"
+	@echo "... vendored/glad/src/glad.o"
+	@echo "... vendored/glad/src/glad.i"
+	@echo "... vendored/glad/src/glad.s"
 .PHONY : help
 
 
